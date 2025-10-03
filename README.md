@@ -18,6 +18,7 @@ It involves data preprocessing, model training and evaluation, and saving the be
 ## ⚙️ How to Run  
 Clone the repository and install dependencies:  
 ```bash
-git clone https://github.com/YOUR_USERNAME/iris-classification-project.git
-cd iris-classification-project
+git clone https://github.com/NadaRagab-DataScientist/Iris-Project.git
+cd Iris-Project
 pip install -r requirements.txt
+
