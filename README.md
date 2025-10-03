@@ -1,24 +1,39 @@
 # 🌸 Iris Classification Project  
 
-## 📌 Overview  
-This project applies supervised machine learning techniques to the classic **Iris dataset** to classify flowers into three species: *Setosa, Versicolor, and Virginica*.  
-It involves data preprocessing, model training and evaluation, and saving the best-performing model for future predictions.  
+## 📌 Project Description  
+This project applies supervised machine learning techniques to the classic Iris dataset to classify flowers into three species: **Setosa, Versicolor, and Virginica**.  
+It includes data preprocessing, training and evaluating multiple classification algorithms, and saving the most accurate model for reliable predictions.  
 
-## 📊 Project Steps  
-1. Load and preprocess the dataset.  
-2. Train multiple classification models (Logistic Regression, KNN, Decision Tree, Random Forest, SVM, Naive Bayes).  
-3. Evaluate models using accuracy, confusion matrix, and classification report.  
-4. Save the best model for deployment.  
+---
 
-## 📂 Files  
-- `iris_notebook.ipynb` → Main notebook with code and results.  
-- `best_model.pkl` → Saved best model for predictions.  
-- `requirements.txt` → Dependencies to run the project.  
+## 📊 Dataset  
+- **Name:** Iris dataset (Fisher, 1936)  
+- **Samples:** 150  
+- **Features:** Sepal length, Sepal width, Petal length, Petal width  
+- **Target:** Species (Setosa, Versicolor, Virginica)  
 
-## ⚙️ How to Run  
-Clone the repository and install dependencies:  
+---
+
+## ⚙️ Methods & Models  
+The following supervised machine learning algorithms were trained and compared:  
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Decision Tree  
+- Random Forest  
+- Support Vector Machine (SVM)  
+- Naive Bayes  
+
+---
+
+## 🏆 Results  
+- **Best Model:** KNN  
+- **Accuracy:** 100% on test set  
+- Confusion Matrix and classification report are included in the notebook.  
+
+---
+
+## 🛠 How to Run  
+
+1. Clone the repository:
 ```bash
 git clone https://github.com/NadaRagab-DataScientist/Iris-Project.git
-cd Iris-Project
-pip install -r requirements.txt
-
